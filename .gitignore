@@ -1,0 +1,10 @@
+# Arduino / ESP32 build outputs
+build/
+*.bin
+*.elf
+*.hex
+# No hay credenciales en este repo: el SSID y la contraseña WiFi se
+# completan a mano en esp32_radar_web.ino antes de subir el sketch.
+# Si alguna vez se guarda un archivo con credenciales, no se sube.
+*secrets*
+*credentials*
